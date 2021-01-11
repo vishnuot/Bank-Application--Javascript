@@ -21,7 +21,10 @@ class Bank{
             }
         }
         else{
-            alert("user not exist")
+            let ulab=document.querySelector("#ulabel")
+            ulab.textContent="invalid username"
+            ulab.style.color="red"
+            alert("no user exist")
         }
     }
     static deposite=()=>{
